@@ -8,9 +8,9 @@ Usage : RuleBaseRewriter config.tsv text
 
 ```PATTERN[TAB]REWRITE```
 
-*PATTERN* is a text to find using a Java regexp. Enclosed between 2 pipe | chars for a better reading of possible spaces.
+*PATTERN* is a text to find using a Java regexp. Enclosed between 2 pipe chars "|" for a better reading of possible spaces.
 
-*REWRITE* is a text to write using possible sub-group matching of the *PATTERN* Java regexp. Enclosed between 2 pipe | chars for a better reading of possible spaces.
+*REWRITE* is a text to write using possible sub-group matching of the *PATTERN* Java regexp. Enclosed between 2 pipe chars "|" for a better reading of possible spaces.
 
 2) all the rules of the TSV are applied one by one in sequence. The line order is thus important.
 
