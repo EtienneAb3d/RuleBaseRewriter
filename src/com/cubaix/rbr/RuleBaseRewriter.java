@@ -65,6 +65,7 @@ public class RuleBaseRewriter {
 			if(aProcessed.length() > aText.length() * 100) {
 				throw new Exception("Text very long, possible infinite loop detected on : \""+aProcessed+ "\"");
 			}
+			aHistory.add(aProcessed);
 		}
 	}
 	
