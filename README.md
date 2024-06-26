@@ -14,7 +14,7 @@ Usage : RuleBaseRewriter config.tsv text
 
 2) all the rules of the TSV are applied one by one in sequence. The line order is thus important.
 
-3) all the rules of TSV file are applied again and again till the obtained text is no more changing.
+3) all the rules of the TSV file are applied again and again till the obtained text is no more changing.
 
 # Use case: convert numbers in their literal
 
