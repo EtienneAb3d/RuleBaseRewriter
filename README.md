@@ -1,6 +1,6 @@
 # RuleBaseRewriter
 
-RuleBaseRewriter is a recursive text rewriter.
+*RuleBaseRewriter* is a recursive text rewriter.
 
 Usage : RuleBaseRewriter config.tsv text
 
