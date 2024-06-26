@@ -16,7 +16,7 @@ Usage : RuleBaseRewriter config.tsv text
 
 3) All the rules of the TSV file are applied again and again till the obtained text is no more changing.
 
-# Use case: convert numbers in their literal
+# Use case: convert numbers in their literals
 
 ```numbers-fr-FR.tsv``` is providing as an example of recursive rewriting to convert numbers in their literal forms (ex: "123" to "cent-vingt-trois").
 
