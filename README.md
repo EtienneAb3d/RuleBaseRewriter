@@ -12,9 +12,9 @@ Usage : RuleBaseRewriter config.tsv text
 
 *REWRITE* is a text to write using possible sub-group matching of the *PATTERN* Java regexp. Enclosed between 2 pipe chars "|" for a better reading of possible spaces.
 
-2) all the rules of the TSV are applied one by one in sequence. The line order is thus important.
+2) All the rules of the TSV are applied one by one in sequence. The line order is thus important.
 
-3) all the rules of the TSV file are applied again and again till the obtained text is no more changing.
+3) All the rules of the TSV file are applied again and again till the obtained text is no more changing.
 
 # Use case: convert numbers in their literal
 
