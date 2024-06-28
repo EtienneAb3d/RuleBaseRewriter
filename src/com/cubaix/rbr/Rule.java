@@ -10,4 +10,8 @@ public class Rule {
 		matcher = aMatcher;
 		rewrite = aRewrite;
 	}
+	
+	public String process(String aText) {
+		return aText.replaceAll(matcher, rewrite);
+	}
 }

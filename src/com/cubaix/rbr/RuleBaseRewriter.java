@@ -50,7 +50,7 @@ public class RuleBaseRewriter {
 				if(_DEBUG) {
 					System.out.println("RULE: "+aR.configLine);
 				}
-				aProcessed = aProcessed.replaceAll(aR.matcher, aR.rewrite); 
+				aProcessed = aR.process(aProcessed); 
 				if(_DEBUG) {
 					System.out.println("TEXT: "+aProcessed + "\n");
 				}
